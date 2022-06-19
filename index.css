@@ -1,0 +1,47 @@
+.main{
+    width: 50vw;
+    height: 50vw;
+    /* border: solid 2px black; */
+    background: url(clock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.hand{
+    width: 1vw;
+    height: 12vw;
+    /* background-color: black; */
+    margin-left: 24.4vw;
+    margin-top: 13vw;
+    position: absolute;
+    transform-origin: bottom;
+    border-radius: 5px;
+}
+
+#hour{
+    background-color: blue;
+    height: 9vw;
+    margin-top: 16vw;
+    width: 1.2vw;
+    /* display: none; */
+}
+
+
+#min{
+    height: 12vw;
+    margin-top: 14vw;
+    background-color: darkgoldenrod;
+    /* display: none; */
+    width: 1vw;
+
+}
+
+#sec{
+    background-color: black;
+    height: 14vw;
+    margin-top: 12vw;
+    margin-left: 24.7vw;
+    width: .3vw;
+    /* display: none; */
+}
